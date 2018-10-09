@@ -1,0 +1,26 @@
+(1) Why did we do so much copying-and-pasting in our software above?
+	** In programming, a lot of the same fundamental executions use the same code base. 
+	** This makes it very easy to copy and paste certain tasks/modules over to other code to operate on some data.
+	** An example of some are getters and setters. For the most part they are very basic and usually don't have added functionality
+	** beyond their basic function. 
+
+a. How can this approach be problematic?
+	** This can cause issues when overdone or not done carefully because of variables needing to be renamed.
+	** It may also take a long time to sort through reused code to make sure the issue is either with the previous code
+	** or new code written off of what was reused.
+
+(2) Are there obvious improvements that could be made here with respect the software design for
+Squares and Circles?
+	** I think the classes are already really basic and don't need much improvement.
+
+(3) What programming constructs were you familiar with, and which did you need to look up?
+	** I had trouble for a second with remembering small details like if the getter returns or if the setter returns.
+	** Once I started writing it down the terms and syntax came back. Just lots of looking through the book's index.
+	
+(4) Assume we used a separate array for Squares and for Circles rather than one unifying Object
+array.
+a. How would this complicate the task of adding a new Shape (say, a Triangle) to our
+ObjectList class?
+	** This could be more difficult to track when and how the shape is being drawn
+	** It could also mean a more complex level looping and checking is required for executing the 
+	** tasks as we did for the Square and Circle. 
